@@ -24,8 +24,8 @@ import (
 var (
 	ProvisionWarehouseTimeout = "ProvisionWarehouseTimeout"
 
-	ErrDoRequest    = errors.New("DoReqeustFailed")
-	ErrReadResponse = errors.New("ReadResponseFailed")
+	ErrDoRequest    = errors.New("failed to do request")
+	ErrReadResponse = errors.New("failed to read response")
 )
 
 type APIErrorResponseBody struct {
